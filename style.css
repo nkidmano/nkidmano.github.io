@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #393939;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 20px auto 30px auto;
+}
+
+.content {
+}
+
+.name {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+section > p {
+  flex: 0 0 20%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+section div {
+  flex: 1;
+}
+
+.project {
+  margin-bottom: 10px;
+}
+
+.project strong:not(:first-child) {
+  color: #727272;
+}
+
+.project__name {
+  text-decoration: underline;
+}
